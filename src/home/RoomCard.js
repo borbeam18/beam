@@ -1,5 +1,5 @@
 import React from 'react';
-import Review from './Review'; // นำเข้าคอมโพเนนต์ Review
+import { Link } from 'react-router-dom';  // นำเข้า Link จาก react-router-dom
 
 function RoomCard({ room, reviews }) {
     return (
@@ -13,16 +13,9 @@ function RoomCard({ room, reviews }) {
                 <div className="card-body">
                     <h5 className="card-title">{room.name}</h5>
                     <p className="card-text">{room.description}</p>
-                    <a href="#" className="btn btn-primary">จองเลย</a>
-
-                    {/* แสดงรีวิว */}
-                    {reviews.map((review, index) => (
-                        <Review 
-                            key={index}
-                            rating={review.rating}
-                            reviewText={review.text}
-                        />
-                    ))}
+                    
+                    {/* ใช้ Link เพื่อให้ไปยังหน้าห้องพัก */}
+                    <Link to={`/room/${room.id}`} className="btn btn-primary">จองเลย</Link>
                 </div>
             </div>
         </div>

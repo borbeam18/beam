@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';  // นำเข้า Link จาก react-router-dom
 import RoomCard from './RoomCard'; // นำเข้าคอมโพเนนต์ RoomCard
 import '../styles.css';
 
@@ -11,6 +12,7 @@ function HomePage() {
             reviews: [
                 { rating: 4, text: "วิวสวย แต่ห้องน้ำควรได้รับการปรับปรุง" },
             ],
+            id: 1,  // เพิ่ม ID เพื่อใช้ในการทำ Routing
         },
         {
             name: 'ห้องพัก 2',
@@ -19,6 +21,7 @@ function HomePage() {
             reviews: [
                 { rating: 4, text: "มีความสุขกับการพักผ่อนมาก แต่ควรมีอาหารเช้าดีกว่านี้" },
             ],
+            id: 2,  // เพิ่ม ID เพื่อใช้ในการทำ Routing
         },
         {
             name: 'ห้องพัก 3',
@@ -27,6 +30,7 @@ function HomePage() {
             reviews: [
                 { rating: 5, text: "ห้องพักหรูหราและสะดวกสบายที่สุด" },
             ],
+            id: 3,  // เพิ่ม ID เพื่อใช้ในการทำ Routing
         },
         // เพิ่มห้องพักอื่นๆ ตามต้องการ
     ];
