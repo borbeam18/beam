@@ -1,0 +1,8 @@
+/* ปรับความสูงและการแสดงผลของรูปใน Carousel */
+.carousel-image {
+    height: 500px; /* กำหนดความสูงให้รูป */
+    object-fit: cover; /* ให้รูปพอดีกับ container โดยไม่เสียสัดส่วน */
+}
+.carousel-inner {
+    max-height: 500px; /* กำหนดขนาดสูงสุดให้ carousel */
+}
