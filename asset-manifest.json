@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/beam/static/css/main.a87e1a25.css",
-    "main.js": "/beam/static/js/main.ebf2dce3.js",
+    "main.js": "/beam/static/js/main.3199db00.js",
     "static/js/453.ed3810f9.chunk.js": "/beam/static/js/453.ed3810f9.chunk.js",
     "index.html": "/beam/index.html",
     "main.a87e1a25.css.map": "/beam/static/css/main.a87e1a25.css.map",
-    "main.ebf2dce3.js.map": "/beam/static/js/main.ebf2dce3.js.map",
+    "main.3199db00.js.map": "/beam/static/js/main.3199db00.js.map",
     "453.ed3810f9.chunk.js.map": "/beam/static/js/453.ed3810f9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a87e1a25.css",
-    "static/js/main.ebf2dce3.js"
+    "static/js/main.3199db00.js"
   ]
 }
