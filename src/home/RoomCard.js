@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';  // นำเข้า Link จาก react-router-dom
+import Rooms from '../components/Rooms';
 
 function RoomCard({ room, reviews }) {
     return (
@@ -15,7 +16,7 @@ function RoomCard({ room, reviews }) {
                     <p className="card-text">{room.description}</p>
                     
                     {/* ใช้ Link เพื่อให้ไปยังหน้าห้องพัก */}
-                    <Link to={`/room/${room.id}`} className="btn btn-primary">จองเลย</Link>
+                    <Link to={`/rooms/${Rooms.id}`} className="btn btn-primary">จองเลย</Link>
                 </div>
             </div>
         </div>
