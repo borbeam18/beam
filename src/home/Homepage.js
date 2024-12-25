@@ -6,7 +6,7 @@ import '../styles.css';
 function HomePage() {
     const rooms = [
         {
-            name: 'ห้องพัก 11',
+            name: 'ห้องพัก 1',
             image: 'https://cf.bstatic.com/xdata/images/hotel/max1024x768/536442679.jpg?k=7141650803b5f9dae4a70a556b6000f80bbcb493b5a043aec9ae7bde8b896522&o=&hp=1',
             description: 'ห้องพักขนาดใหญ่พร้อมวิวทะเล',
             reviews: [
