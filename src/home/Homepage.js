@@ -1,6 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom';  // นำเข้า Link จาก react-router-dom
-import RoomCard from './RoomCard'; // นำเข้าคอมโพเนนต์ RoomCard
+import RoomCard from '../components/RoomCard'; // นำเข้าคอมโพเนนต์ RoomCard
 import '../styles.css';
 
 function HomePage() {
@@ -45,7 +44,6 @@ function HomePage() {
                         <RoomCard 
                             key={index} 
                             room={room} 
-                            reviews={room.reviews} // ส่งรีวิวเฉพาะห้องนั้นๆ
                         />
                     ))}
                 </div>

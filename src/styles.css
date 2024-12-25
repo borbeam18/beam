@@ -145,3 +145,32 @@ footer .container {
     font-size: 1.2rem; /* ขนาดดาวใหญ่ขึ้น */
 }
 
+.card {
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+  
+  .card-text {
+    font-size: 1rem;
+    color: #555;
+  }
+  
+  .btn {
+    width: 100%;
+    font-size: 1.1rem;
+  }
+  
+  .modal-content {
+    border-radius: 10px;
+  }
+  
+  .modal-body {
+    padding: 20px;
+  }
+  
